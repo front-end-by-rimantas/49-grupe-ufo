@@ -9,19 +9,25 @@
 </head>
 
 <body>
-    <main style="background-color: yellow;">
-        <div style="width: 20%; background-color: pink; float: left;">
+    <main style="display: inline-block; width: 100%;">
+        <div style="width: 25%; margin-left: 20%; float: left; margin-top: 250px;">
             <h1 style="">404</h1>
             <p style="">Page not found</p>
             <a style="" href="#">Go to home</a>
         </div>
-        <img style="width: 30%; float: left;" src="ufo.jpg" alt="UFO lekste kuri vagia daiktus?.. 👀">
+        <img style="width: 35%; margin-top: 150px; float: left;" src="ufo.jpg" alt="UFO lekste kuri vagia daiktus?.. 👀">
     </main>
 </body>
 
 </html>
 
 <!-- 
+display: none;              // elementas tiesiog nerodomas
+display: block;             // vertikaliai
+display: inline;            // <a>, <span>, <img> - elgiasi kaip "tekstas"
+display: inline-block;      // jei elementai siauri, tai talpinasi i viena eilute 
+                            // (salia vienas kito), bet jeigu elementas yra labai platus
+                            // tai tada jis apsiriboja ties 100% tevo plocio
 
 font-family: Arial;
 font-size: 100px;
